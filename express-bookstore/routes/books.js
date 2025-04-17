@@ -1,5 +1,6 @@
 const express = require("express");
 const Book = require("../models/book");
+const bookSchema = require("../schemas/bookSchema.json");
 
 const router = new express.Router();
 
